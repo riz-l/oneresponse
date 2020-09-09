@@ -1,0 +1,110 @@
+/*#region UI: ReportHeader */
+.ReportHeader {
+  align-items: center;
+  display: flex;
+  height: auto;
+  justify-content: space-between;
+  margin: 0 1rem;
+
+  .ReportHeader__options {
+    align-items: center;
+    display: flex;
+    height: auto;
+    justify-content: flex-start;
+    width: 100%;
+
+    .ReportHeader__option {
+      align-items: center;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0.8rem 2rem;
+
+      & i {
+        color: #414141;
+        font-size: 1.4rem;
+        transition: color 250ms ease-in-out;
+      }
+
+      & li {
+        color: #414141;
+        display: inline;
+        font-size: 1rem;
+        font-weight: 600;
+        letter-spacing: 1px;
+        padding-top: 0.2rem;
+        transition: color 250ms ease-in-out;
+      }
+
+      &:hover {
+        & i {
+          color: #2c2c2c;
+          transition: color 250ms ease-in-out;
+        }
+
+        & li {
+          color: #2c2c2c;
+          transition: color 250ms ease-in-out;
+        }
+      }
+    }
+  }
+}
+
+/*#region Media Queries */
+@media screen and (max-width: 670px) {
+  .ReportHeader {
+    .ReportHeader__options {
+      .ReportHeader__option {
+        & i {
+          font-size: 1.6rem;
+        }
+
+        & li {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .ReportHeader {
+    .ReportHeader__options {
+      .ReportHeader__option {
+        padding: 0.8rem 1.4rem;
+
+        & i {
+          font-size: 1.4rem;
+        }
+
+        & li {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 434px) {
+  .ReportHeader {
+    .ReportHeader__options {
+      .ReportHeader__option {
+        padding: 0.8rem 1rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 352px) {
+  .ReportHeader {
+    .ReportHeader__options {
+      .ReportHeader__option {
+        padding: 0.8rem 0.8rem;
+      }
+    }
+  }
+}
+/*#endregion /Media Queries */
+/*#endregion /UI: ReportHeader */

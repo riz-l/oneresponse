@@ -1,0 +1,60 @@
+/*#region Default: React */
+body {
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  padding: 0;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+/*#endregion /Default: React */
+
+/*#region Default: Native */
+a {
+  color: black;
+  outline: none;
+  text-decoration: none;
+}
+/*#endregion /Default: Native */
+
+/*#region Component: App */
+.App {
+  background-color: #f0f1f6;
+
+  .App__header {
+    height: 12vh;
+    width: 100%;
+  }
+
+  .App__layout {
+    display: grid;
+    grid-template-areas: "patient-list report-container";
+    grid-template-columns: 400px 1fr;
+    grid-template-rows: 88vh;
+    transition: all 250ms ease-in-out;
+
+    .App__patient-list {
+      grid-area: patient-list;
+    }
+
+    .App__patient-report-container {
+      grid-area: report-container;
+    }
+  }
+}
+/*#endregion /Component: App */

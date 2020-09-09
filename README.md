@@ -1,68 +1,73 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# ONERESPONSE - MANAGEMENT
 
-## Available Scripts
+Please see below for a list on all respective data tables for the relevant reports.
 
-In the project directory, you can run:
+## SBAR
 
-### `yarn start`
+## PATIENT REPORT
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Patient Details
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+1. Patient Details = PatientDetails
+2. Next of Kin, Patient GP = NoK_Item
 
-### `yarn test`
+### Triage and Pathfinder Support
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Specialist Pathways Assessment = Specialist_Pathway_Item
+2. Major Trauma = Major_Trauma_Pathfinder
+3. Manchester Triage System = MTS_Pathway_Iitem
+4. Pathfinders = PathwaysAndDisposition
+5. Joint Decision Making = JointDecisionMaking
 
-### `yarn build`
+### Cardiovascular Assessment
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Cardiac Chest Pain =
+2. Stroke Assessment = StrokeItem
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### Cardiac Arrest
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Cardiac Arrest = CardiacArrest
 
-### `yarn eject`
+### IV Access and Medications
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. IV Access =
+2. IV Refusal =
+3. Drugs/Meds =
+4. Drugs Refusal =
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Trauma Management
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+1. Skeletal Trauma =
+2. Burns =
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Transport Options
 
-## Learn More
+1. Transport Options =
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Communications, Consent and Notifications
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Communications, Consent and Notifications =
 
-### Code Splitting
+### Airways Management
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+1. Airways Management =
 
-### Analyzing the Bundle Size
+### Clinical Observations
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+1. Clinical Observations =
 
-### Making a Progressive Web App
+### Capacity to Consent
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+1. Capacity to Consent =
 
-### Advanced Configuration
+### Sign and Sync
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+1. Sign and Sync =
 
-### Deployment
+## NOTES
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+## MEDIA
 
-### `yarn build` fails to minify
+## ECG
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## DIAGNOSIS OF DEATH

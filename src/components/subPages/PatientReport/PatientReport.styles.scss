@@ -1,0 +1,41 @@
+/*#region subPage: Sbar */
+.PatientReport {
+  // background-image: linear-gradient(
+  //   to left,
+  //   rgba(240, 241, 246, 0),
+  //   rgba(255, 255, 255, 1),
+  //   rgba(240, 241, 246, 0)
+  // );
+  background: transparent;
+  border-radius: 8px;
+  min-height: 68vh;
+  max-height: 68vh;
+  margin: 1rem;
+  padding: 1rem;
+  overflow-y: auto;
+
+  .PatientReport__container {
+    display: grid;
+    align-items: start;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    justify-content: start;
+    grid-gap: 10px;
+    margin: 1rem 0;
+
+    .PatientReport__report-col {
+      display: flex;
+      align-items: flex-start;
+      justify-content: flex-start;
+      flex-direction: column;
+      padding: 1rem 0;
+    }
+  }
+}
+
+/*#region Media Queries */
+@media screen and (max-width: 724px) {
+  .PatientReport {
+  }
+}
+/*#endregion /Media Queries */
+/*#endregion /subPage: Sbar */
